@@ -3,6 +3,7 @@ import './App.css'
 
 export default function Layout() {
   return (
+    <>
     <div className="layout">
       <Link to="category">
         <button>CAT Categoty</button>
@@ -22,7 +23,8 @@ export default function Layout() {
       <Link to="rktq-todo-category">
         <button>rktq-todo-category</button>
       </Link>
-      <Outlet />
     </div>
+      <Outlet />
+    </>
   );
 }

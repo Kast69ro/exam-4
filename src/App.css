@@ -1,0 +1,13 @@
+.layout{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+.layout button{
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

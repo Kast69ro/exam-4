@@ -24,6 +24,9 @@ export default function App() {
       </Routes>
     </BrowserRouter>
 
+    <div>
+      <h1 style={{textAlign:'center',marginTop:'300px' , fontSize:'60px'}}>Welcome</h1>
+    </div>
     
     </>
   );
